@@ -1,13 +1,87 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App {
+ 
+  background-color: #1e2931;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+body{
+  background-color: #1e2931;
+}
+
+.movie-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  
+}
+
+.movie-card{
+  
+  width:220px;
+  height: 300px;
+  border-radius: 10px;
+
+  margin-top: 20px;
+  margin-left: 30px;
+  background-color: black;
+  color: white;
+ 
+  
+
+}
+
+img{
+  width: 100%;
+  height: 300px;
+}
+
+
+.movie-card:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+input{
+  width: 700px;
+  height: 50px;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 50px;
+}
+
+.movieDiv{
+  color: white;
+  font-size: 100px;
+}
+
+p{
+  width: 200px;
+  height: 160px;
+  
+  padding-top: 100px;
+  position: relative;
+  bottom: 280px;
+color: white;
+font-size: larger;
+  display: flex;
+  justify-content: center;
+
+  
+  opacity: 0;
+
+
+}
+p:hover{
+ opacity: 1;
+
+
 }
