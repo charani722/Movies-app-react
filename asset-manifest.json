@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/charani722/Movies-app-react/static/css/main.b1f63151.css",
+    "main.js": "/charani722/Movies-app-react/static/js/main.c9d9ed1f.js",
+    "static/media/logo.svg": "/charani722/Movies-app-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/charani722/Movies-app-react/index.html",
+    "main.b1f63151.css.map": "/charani722/Movies-app-react/static/css/main.b1f63151.css.map",
+    "main.c9d9ed1f.js.map": "/charani722/Movies-app-react/static/js/main.c9d9ed1f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1f63151.css",
+    "static/js/main.c9d9ed1f.js"
+  ]
+}
