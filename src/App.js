@@ -38,7 +38,8 @@ function App() {
       <input type="text" placeholder='Search for Movie here'onChange={(e) => resultMovies(e.target.value.toLowerCase())} />
       <div className='movie-container'> 
       
-      {movies ? movies.map(movie => <div className="movie-card">
+      {movies ? movies.length === 0 ?
+      <div className='movieDiv'> NO Movies found </div>:movies.map(movie => <div className="movie-card">
           <img src={movie.Poster}/>
           <p >{movie.Title}</p>
           </div>)
